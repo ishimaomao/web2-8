@@ -6,7 +6,7 @@ for(var i = 1; i < 10; i++){
   
 var HP=100;
 While(0 < HP>{
-  var li = document.createElement('li);
+  var li = document.createElement('li');
   var damage = Math.floor(Math.random() * 100);
   HP -= damage;
   HP = (HP < 0) ? 0; HP;
