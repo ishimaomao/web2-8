@@ -24,3 +24,17 @@ for(var i = 1; i < 10; i++){
   li.textContent = price + '円(税込み' + include_tax(price) + '円)';
   document.getElementById('price').appendChild(li);
 }
+
+var constellation = {'牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','射手座','山羊座','水瓶座','魚座'};
+for(var i = 0; i < 12; i++){
+  var li = document.createElement('li');
+  li.textContent = constellatio[i];
+  document.getElementById('array').appendChild(li);
+}
+  
+var player = {name:'ほげほげ', age:20, blood:'A'};
+for(key in player) {
+  vatr li = document.createElement("li");
+  li.textContent = key + ': ' + player[key];
+  document.GetElemenById('object').appendChild(li);
+}
